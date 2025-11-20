@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+  width: 57px;
+  height: 30px;
+  fill: var(--blue);
+
+  @media screen and (min-width: 768px) {
+    width: 74px;
+    height: 42px;
+  }
+}

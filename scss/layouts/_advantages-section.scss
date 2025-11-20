@@ -1,0 +1,11 @@
+.advantages-section {
+  padding-top: 12px;
+  padding-bottom: 84px;
+
+  &__descr {
+    margin-bottom: 16px;
+    @media screen and (min-width: $bp-desktop) {
+      margin-bottom: 40px;
+    }
+  }
+}
