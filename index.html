@@ -86,21 +86,21 @@
           </p>
         </div>
       </section>
-      <section class="advantages-section" id="advantages-section">
+      <section class="offer-section" id="offer-section">
         <div class="container">
-          <div class="advantages-section__container">
-            <div>
+          <div class="offer-section__container">
+            <div class="offer-section__text">
               <h2 class="section__title">
                 Перевтілюйтесь <br />в
                 <span class="accent capitalize bold" lang="en"
                   >beauty zone!</span
                 >
               </h2>
-              <p class="advantages-section__descr">
+              <p class="offer-section__descr line-height">
                 Наша косметологічна клініка пропонує вам професійні послуги з
                 догляду за шкірою обличчя та тіла.
               </p>
-              <p>
+              <p class="line-height">
                 B
                 <span class="capitalize bold" lang="en">beauty zone</span>
                 ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші
@@ -108,11 +108,11 @@
                 підтримувати свою красу та молодість. З нами краса назавжди!
               </p>
             </div>
-            <div class="advantages-section__container">
+            <div class="offer-section__photo">
               <img
                 width="327"
                 height="327"
-                class="img-tradition"
+                class="offer-section__img"
                 srcset="
                   ./images/skin-before.jpg    1x,
                   ./images/skin-before@2x.jpg 2x
@@ -123,7 +123,7 @@
               <img
                 width="327"
                 height="327"
-                class="img-tradition"
+                class="offer-section__img img-end"
                 srcset="
                   ./images/skin-after.jpg    1x,
                   ./images/skin-after@2x.jpg 2x
@@ -135,64 +135,48 @@
           </div>
         </div>
       </section>
-      <!-- <section class="section" id="section-chefs">
+      <section class="section advantages-section" id="advantages-section">
         <div class="container">
-          <h2 class="section-title center-title chefs-title">
-            Наші найкращі <br /><span class="accent-second">шеф -кухарі</span>
+          <h2 class="section__title center">
+            Чому люди <br /><span class="accent">обирають нас</span>
           </h2>
-          <ul class="chefe-list">
-            <li class="chefe-item">
-              <article class="chefe-info">
-                <img
-                  class="chefe-photo"
-                  srcset="
-                    ./images/nastya-photo.jpg    1x,
-                    ./images/nastya-photo@2x.jpg 2x
-                  "
-                  src="./images/nastya-photo.jpg"
-                  alt="Шеф-кухар Настя"
-                />
-                <div>
-                  <h3 class="chefe-name">Настя</h3>
-                  <p class="descr-chefe">Привіт, я Настя!</p>
-                  <p class="descr-chefe">
-                    Вже 10 років, я втілюю <br />у життя цікаві та смачні ідеї.
-                  </p>
-                  <p>Я випічу для вас <br />найсмачніщі вироби!</p>
-                </div>
-              </article>
-            </li>
-            <li class="chefe-item">
-              <article class="chefe-info">
-                <img
-                  class="chefe-photo"
-                  srcset="
-                    ./images/vlad-photo.jpg    1x,
-                    ./images/vlad-photo@2x.jpg 2x
-                  "
-                  src="./images/vlad-photo.jpg"
-                  alt="Шеф-кухар Влад"
-                />
-                <div>
-                  <h3 class="chefe-name">Влад</h3>
-                  <p class="descr-chefe">Привіт, я Влад!</p>
-                  <p class="descr-chefe">
-                    Мій кодитерський стаж вже 18 років. <br />
-                    <span class="uppercase" lang="en">Shop bakery</span>- це
-                    наша любов, з якою ми ділимось кожен раз з Вами через нашу
-                    випічку!
-                  </p>
-                  <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
-                </div>
-              </article>
-            </li>
-          </ul>
         </div>
-      </section> -->
-      <!-- <section class="section" id="section-format">
+        <ul class="advantages-section__list">
+          <li class="advantages-section__item">
+            <svg class="advantages-section__svg" width="48" height="48">
+              <use href="./images/icons.svg#icon-materials-science"></use>
+            </svg>
+            <p class="advantages-section__text">
+              Всі наші косметологи мають вищу медичну освіту та стаж роботи від
+              5 років
+            </p>
+          </li>
+          <li class="advantages-section__item">
+            <svg class="advantages-section__svg" width="48" height="48">
+              <use href="./images/icons.svg#icon-medicinecosmetics"></use>
+            </svg>
+            <p class="advantages-section__text">
+              Використовуємо тільки професійне обладнання та косметику,
+              перевірену часом
+            </p>
+          </li>
+          <li class="advantages-section__item">
+            <svg class="advantages-section__svg" width="48" height="48">
+              <use href="./images/icons.svg#icon-crown"></use>
+            </svg>
+            <p class="advantages-section__text">
+              Наша мета - підкреслити переваги та приховати недоліки, а не
+              переробити
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="section procedures-section" id="procedures-section">
         <div class="container">
-          <h2 class="section-title center-title">Формати</h2>
-          <div class="container-formats">
+          <h2 class="section__title center">
+            Наші <span class="accent">процедури</span>
+          </h2>
+          <div class="procedures-section_container">
             <button class="button-arrow prev" type="button">
               <svg width="18" height="15">
                 <use href="./images/icons.svg#icon-arrow"></use>
@@ -204,21 +188,17 @@
                   <article class="card-format">
                     <img
                       class="img-format"
-                      srcset="./images/walrus.jpg 1x, ./images/walrus@2x.jpg 2x"
-                      src="./images/walrus.jpg"
-                      alt="Формат Walrus"
+                      srcset="
+                        ./images/face-mask.jpg    1x,
+                        ./images/face-mask@2x.jpg 2x
+                      "
+                      src="./images/face-mask.jpg"
+                      alt="Процедура маски для обличчя"
                       width="349"
                       height="444"
                     />
                     <div class="descr-format">
-                      <h3 class="formats-name" lang="en">Walrus</h3>
-                      <p>Площа: до 120 м2</p>
-                      <p>Меню: розширене меню</p>
-                      <p>
-                        Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
-                        офіціанти-різнороби
-                      </p>
-                      <p>Посадкові місця: є</p>
+                      <h3 class="formats-name">Маски для обличчя</h3>
                     </div>
                   </article>
                 </li>
@@ -227,22 +207,16 @@
                     <img
                       class="img-format"
                       srcset="
-                        ./images/horseshoe.jpg    1x,
-                        ./images/horseshoe@2x.jpg 2x
+                        ./images/injections.jpg    1x,
+                        ./images/injections@2x.jpg 2x
                       "
-                      src="./images/horseshoe.jpg"
-                      alt="Формат Horseshoe"
+                      src="./images/injections.jpg"
+                      alt="Процедура ін'єкції для обличчя"
                       width="349"
                       height="444"
                     />
                     <div class="descr-format">
-                      <h3 class="formats-name" lang="en">Horseshoe</h3>
-                      <p>Площа: до 25 м2</p>
-                      <p>Меню: найпопулярніші позиції меню</p>
-                      <p>
-                        Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря
-                      </p>
-                      <p>Посадкові місця: відсутні</p>
+                      <h3 class="formats-name">Ін'єкції для обличчя</h3>
                     </div>
                   </article>
                 </li>
@@ -251,88 +225,16 @@
                     <img
                       class="img-format"
                       srcset="
-                        ./images/handlebar.jpg    1x,
-                        ./images/handlebar@2x.jpg 2x
+                        ./images/facial-cleansing.jpg    1x,
+                        ./images/facial-cleansing@2x.jpg 2x
                       "
-                      src="./images/handlebar.jpg"
-                      alt="Формат Handlebar"
+                      src="./images/facial-cleansing.jpg"
+                      alt="Процедура очищення обличчя"
                       width="349"
                       height="444"
                     />
                     <div class="descr-format">
-                      <h3 class="formats-name" lang="en">Handlebar</h3>
-                      <p>Площа: до 15 м2</p>
-                      <p>Меню: найпопулярніші позиції меню</p>
-                      <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
-                      <p>Посадкові місця: відсутні</p>
-                    </div>
-                  </article>
-                </li>
-                <li class="swiper-slide card">
-                  <article class="card-format">
-                    <img
-                      class="img-format"
-                      srcset="./images/walrus.jpg 1x, ./images/walrus@2x.jpg 2x"
-                      src="./images/walrus.jpg"
-                      alt="Формат Walrus"
-                      width="349"
-                      height="444"
-                    />
-                    <div class="descr-format">
-                      <h3 class="formats-name" lang="en">Walrus</h3>
-                      <p>Площа: до 120 м2</p>
-                      <p>Меню: розширене меню</p>
-                      <p>
-                        Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2
-                        офіціанти-різнороби
-                      </p>
-                      <p>Посадкові місця: є</p>
-                    </div>
-                  </article>
-                </li>
-                <li class="swiper-slide card">
-                  <article class="card-format">
-                    <img
-                      class="img-format"
-                      srcset="
-                        ./images/horseshoe.jpg    1x,
-                        ./images/horseshoe@2x.jpg 2x
-                      "
-                      src="./images/horseshoe.jpg"
-                      alt="Формат Horseshoe"
-                      width="349"
-                      height="444"
-                    />
-                    <div class="descr-format">
-                      <h3 class="formats-name" lang="en">Horseshoe</h3>
-                      <p>Площа: до 25 м2</p>
-                      <p>Меню: найпопулярніші позиції меню</p>
-                      <p>
-                        Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря
-                      </p>
-                      <p>Посадкові місця: відсутні</p>
-                    </div>
-                  </article>
-                </li>
-                <li class="swiper-slide card">
-                  <article class="card-format">
-                    <img
-                      class="img-format"
-                      srcset="
-                        ./images/handlebar.jpg    1x,
-                        ./images/handlebar@2x.jpg 2x
-                      "
-                      src="./images/handlebar.jpg"
-                      alt="Формат Handlebar"
-                      width="349"
-                      height="444"
-                    />
-                    <div class="descr-format">
-                      <h3 class="formats-name" lang="en">Handlebar</h3>
-                      <p>Площа: до 15 м2</p>
-                      <p>Меню: найпопулярніші позиції меню</p>
-                      <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>
-                      <p>Посадкові місця: відсутні</p>
+                      <h3 class="formats-name">Очищення обличчя</h3>
                     </div>
                   </article>
                 </li>
@@ -348,7 +250,7 @@
             <span class="pagination-button"></span>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- <section class="section contacts-section" id="section-contacts">
         <div class="container">
           <div class="container-contacts">
