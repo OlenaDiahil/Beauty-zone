@@ -1,0 +1,32 @@
+.form-input {
+  font-size: 16px;
+  line-height: 1.17;
+  width: 100%;
+  background-color: transparent;
+  color: var(--dark-brown);
+  padding: 16px 42px;
+  border: 1px solid var(--light-brown);
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.form-input:focus {
+  border-color: var(--light-green);
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--light-brown);
+}
+
+.form-input:focus::placeholder {
+  color: var(--dark-brown);
+}
+
+.form-input.modal-input {
+  margin-bottom: 32px;
+}
+
+.button-form.button-modal {
+  margin-bottom: 24px;
+}

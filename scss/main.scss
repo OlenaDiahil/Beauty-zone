@@ -7,9 +7,14 @@
 
 @import './components/logo';
 @import './components/button';
+@import './components/pagination';
+@import './components/carousel-button';
+@import './components/procedures-card';
+
 @import './layouts/procedures-section';
 @import './layouts/advantages-section';
 @import './layouts/offer-section';
+@import './layouts/contacts-section';
 @import './layouts/hero-section';
 @import './layouts/section';
 @import './layouts/container';
@@ -448,82 +453,6 @@
 //   }
 // }
 
-// /* contacts */
-
-// .contacts-section {
-//   padding-bottom: 0;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .contacts-section {
-//     padding-bottom: 96px;
-//   }
-// }
-
-// .container-contacts {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 24px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .container-contacts {
-//     flex-direction: row;
-//     gap: 32px;
-//   }
-// }
-
-// .form-container {
-//   flex-basis: calc((100% - 32px) / 2);
-// }
-
-// .section-title.contacts-title {
-//   letter-spacing: -0.01em;
-//   margin-bottom: 16px;
-// }
-
-// .callto-action {
-//   margin-bottom: 42px;
-//   color: var(--dark-green);
-// }
-
-// .button-call.button-form {
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;
-//   margin-bottom: 16px;
-// }
-
-// .button-call.button-form:hover {
-//   color: var(--dark-green);
-//   background-color: transparent;
-// }
-
-// .descr-privacy {
-//   text-align: center;
-//   font-weight: 500;
-//   font-size: 12px;
-// }
-
-// .link-privacy {
-//   text-decoration: underline;
-//   text-underline-offset: 2px;
-//   color: var(--dark-brown);
-// }
-
-// .map {
-//   width: 100%;
-//   height: 176px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .map {
-//     width: 603px;
-//     height: 595px;
-//     border-radius: 16px;
-//   }
-// }
-
 // /* footer */
 
 // .footer {
@@ -750,37 +679,4 @@
 //   text-align: center;
 //   color: var(--dark-green);
 //   margin-bottom: 72px;
-// }
-
-// .form-input {
-//   font-size: 16px;
-//   line-height: 1.17;
-//   width: 100%;
-//   background-color: transparent;
-//   color: var(--dark-brown);
-//   padding: 16px 42px;
-//   border: 1px solid var(--light-brown);
-//   border-radius: 8px;
-//   margin-bottom: 24px;
-// }
-
-// .form-input:focus {
-//   border-color: var(--light-green);
-//   outline: none;
-// }
-
-// .form-input::placeholder {
-//   color: var(--light-brown);
-// }
-
-// .form-input:focus::placeholder {
-//   color: var(--dark-brown);
-// }
-
-// .form-input.modal-input {
-//   margin-bottom: 32px;
-// }
-
-// .button-form.button-modal {
-//   margin-bottom: 24px;
 // }

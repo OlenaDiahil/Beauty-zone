@@ -14,8 +14,8 @@ const swiper = new Swiper('.swiper-container', {
   // If we need pagination
   pagination: {
     el: '.pagination',
-    bulletClass: 'pagination-button',
-    bulletActiveClass: 'pagination-button-active',
+    bulletClass: 'pagination_button',
+    bulletActiveClass: 'pagination_button-active',
   },
 
   // Navigation arrows
