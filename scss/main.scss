@@ -6,11 +6,13 @@
 @import './base';
 
 @import './components/logo';
+@import './components/form';
 @import './components/button';
 @import './components/pagination';
 @import './components/carousel-button';
 @import './components/procedures-card';
 
+@import './layouts/footer';
 @import './layouts/procedures-section';
 @import './layouts/advantages-section';
 @import './layouts/offer-section';
@@ -451,180 +453,6 @@
 //   .descr-chefe {
 //     margin-bottom: 18px;
 //   }
-// }
-
-// /* footer */
-
-// .footer {
-//   background-color: var(--dark-brown);
-//   background-image: url(../images/footer.png);
-//   background-repeat: no-repeat;
-//   background-position: center top;
-//   background-size: cover;
-//   padding: 32px 0;
-//   position: relative;
-//   overflow: hidden;
-// }
-
-// .footer-container {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   gap: 18px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .footer-container {
-//     flex-direction: row;
-//     align-items: flex-start;
-//     gap: 20px;
-//   }
-// }
-
-// .footer-container::before,
-// .footer-container::after {
-//   content: '';
-//   background-repeat: no-repeat;
-//   background-size: contain;
-//   position: absolute;
-// }
-
-// .footer-container::before {
-//   width: 92px;
-//   height: 196px;
-//   background-image: url(../images/baguette.png);
-//   transform: rotate(6.44deg);
-//   left: -20px;
-//   bottom: 259px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .footer-container::before {
-//     width: 181px;
-//     height: 342px;
-//     transform: rotate(-10deg);
-//     left: -33px;
-//     bottom: -200px;
-//   }
-// }
-
-// .footer-container::after {
-//   width: 111px;
-//   height: 120px;
-//   background-image: url(../images/two-baguette.png);
-//   transform: rotate(20deg);
-//   right: -22px;
-//   bottom: -43px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .footer-container::after {
-//     width: 305px;
-//     height: 330px;
-//     transform: rotate(25deg);
-//     right: 18px;
-//     bottom: -200px;
-//   }
-// }
-
-// .nav-wrapper {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 32px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .nav-wrapper {
-//     flex-direction: row;
-//     flex-basis: 50%;
-//     gap: 20px;
-//   }
-// }
-
-// .logo-footer {
-//   display: block;
-//   width: 78px;
-//   height: 38px;
-//   fill: var(--lights);
-// }
-
-// @media screen and (min-width: 768px) {
-//   .logo-footer {
-//     flex-grow: 1;
-//     width: 114px;
-//     height: 56px;
-//   }
-// }
-
-// .list-link-footer {
-//   text-align: center;
-//   flex-grow: 1;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .list-link-footer {
-//     text-align: start;
-//   }
-// }
-
-// .address-wrapper {
-//   text-align: center;
-//   flex-grow: 1;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .address-wrapper {
-//     text-align: start;
-//   }
-// }
-
-// .footer-parth {
-//   text-align: center;
-//   flex-grow: 1;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .footer-parth {
-//     text-align: start;
-//   }
-// }
-
-// .list-link-footer :not(:last-child) {
-//   margin-bottom: 16px;
-// }
-
-// .nav-link.address {
-//   display: block;
-//   font-weight: 300;
-//   font-size: 16px;
-//   margin-bottom: 16px;
-// }
-
-// .social-list {
-//   display: flex;
-//   justify-content: center;
-//   gap: 22px;
-// }
-
-// @media screen and (min-width: 768px) {
-//   .social-list {
-//     justify-content: flex-start;
-//   }
-// }
-
-// .social-link svg {
-//   fill: var(--lights);
-//   transition: fill 0.2s;
-// }
-
-// .social-link:hover svg {
-//   fill: var(--light-green);
-// }
-
-// .data-protected {
-//   font-size: 14px;
-//   color: var(--light-brown);
-// }
 
 // /* backdrop */
 
